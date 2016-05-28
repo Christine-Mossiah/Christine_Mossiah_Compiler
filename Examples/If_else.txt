@@ -1,0 +1,11 @@
+PROGRAM ifstatement;
+var 
+	x:integer;
+Begin
+	x := 4;
+	IF x < 5 then
+		writeln 'Im in if';
+		
+    	else
+        	writeln 'Im in else';
+end.

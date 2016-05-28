@@ -1,0 +1,24 @@
+program ArrayTest;
+
+var
+    a, b, sum : Integer;
+    myArray : Array[1 .. 5] of Integer;
+
+begin
+	a := 1;
+	myArray[2] := 10;
+	writeln myArray[2];
+	while a < 6 do
+	begin
+		myArray[a] := a;
+		a := a + 1;
+	end;
+
+	a := 1;
+	while a < 6 do
+    	begin
+    		writeln myArray[a];
+    		a := a+1;
+    	end;
+
+end.

@@ -1,0 +1,8 @@
+program Addition;
+var 
+	a, sum : Integer;
+begin
+	a := 10;
+	sum := a + a;
+	writeln sum;
+end.

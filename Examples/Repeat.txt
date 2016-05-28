@@ -1,0 +1,10 @@
+PROGRAM Repatloop;
+var 
+	a: integer;
+Begin
+	a := 1;
+	repeat
+		a := a + 1;
+		writeln(a);
+	until a > 30;
+END.

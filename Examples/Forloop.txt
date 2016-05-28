@@ -1,0 +1,21 @@
+program ForLoop;
+
+var
+    a, b, sum : Integer;
+    myArray : Array[1 .. 5] of Integer;
+
+Begin
+    a := 1;
+    while a < 6 do
+    begin
+        myArray[a] := a;
+        a := a + 1;
+    end;
+
+    for count := 1 to 6 do
+    begin
+        writeln myArray[count];
+    end;
+
+    writeln 'done';
+end.
